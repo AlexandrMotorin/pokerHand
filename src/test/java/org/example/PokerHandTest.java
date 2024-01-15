@@ -86,7 +86,7 @@ public class PokerHandTest {
                         -1,
                         "TWO PAIR vs TWO PAIR : одинаковый ранг, но у первой двойки меньше номинал"),
                 Arguments.of(
-                        new PokerHand("4C 4D 8H 5C 7H"), // todo ??
+                        new PokerHand("4C 4D 8H 5C 7H"),
                         new PokerHand("4C 4D 3H 7C 9H"),
                         -1,
                         "PAIR с одинаковым номиналом и большим кикером vs  PAIR"),
